@@ -7,8 +7,8 @@
 #  name          :string(255)
 #  email         :string(255)
 #  is_anonymous  :boolean
-#  created_at    :datetime
-#  updated_at    :datetime
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
 #  vote_count    :integer          default(0)
 #  answers_count :integer          default(0)
 #
